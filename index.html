@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="headerBackground">
+            <h1>Tec<b id="b">Burguer🍔</b></h1>
+        <ul>
+            <li class="liHeader">Inicio</li>
+            <li class="liHeader">Sobre nós</li>
+            <li class="liHeader">Cardápio</li>
+            <li class="liHeader">Login/Cadastrar</li>
+        </ul>
+        </div>        
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="leftSide">
+                <h2>Quer saborear o melhor hambúrguer com um toque de tecnologia?😋</h2>
+                <p>Coloque seu e-mail para se inscrever no nosso site e veja nosso cardápio.</p>
+                <form action="#">
+                    <input type="email" class="input" placeholder="Digite seu e-mail" id="email">
+                    <button class="button" onclick="emailSend()">Enviar</button>
+                    <h3 id="output"></h3>
+                </form>
+            </div>
+            <div class="rightSide">
+                <img src="./hamburger-animate.svg" alt="hamburguer">
+            </div> 
+        </div>
+        
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
